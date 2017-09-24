@@ -1,0 +1,1 @@
+CREATE DATABASE IF NOT EXISTS tienda; USE tienda; CREATE TABLE IF NOT EXISTS categoria (id int(11) NOT NULL AUTO_INCREMENT, nombre varchar(100) NOT NULL, descripcion varchar(5000) NOT NULL, PRIMARY KEY (id)); 
